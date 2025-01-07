@@ -20,6 +20,13 @@
     color: #fff;
     text-decoration: none;
     line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover a {
+    background-color: #ccc;
+    color: #000;
 }
 
 #nav .subnav {
@@ -34,7 +41,8 @@
 }
 
 #slider{
-
+    min-height: 500px;
+    background-color: #333;
 }
 
 #content{
